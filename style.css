@@ -1,0 +1,105 @@
+body{
+   
+    background-image: url("background1.avif");
+    background-size: cover;        /* makes image cover full screen */
+    background-position: center;   /* keeps image centered */
+    background-repeat: no-repeat;  /* prevents repeating */
+    height: 200vh;                 /* full viewport height */
+    margin: 0;
+}
+
+
+
+h1{
+    color:white;
+    margin: 0px;
+    padding-left: 200px
+
+}
+#p1{
+    font-size: 18px;
+    color:white;
+    width: 400px;
+    margin-top: 0px;
+    display:inline-block;
+    padding-left: 200px;
+}
+button{
+    float: right;
+    margin-right: 400px;
+    width: 70px;
+    height: 25px;
+    border-style: solid;
+}
+button:active{
+    opacity: 0.7;
+}
+input{
+    margin-right: 10px;
+    float: right;
+    width: 230px;
+    height: 20px;
+}
+.header{
+    background-color:rgb(34, 38, 43);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 950px;
+    margin-left: 200px;
+    transition: box-shadow 0.3s;
+    border-radius: 20px;
+    
+}
+.header:hover{
+        box-shadow: 0px 0px 100px rgb(8, 8, 8);
+
+}
+.homelink,.telugulink,.tamillink,.hindilink{
+    margin-left: 70px;
+    color:rgb(242, 240, 240);
+    text-decoration-line: none;
+}
+.homelink:hover,.telugulink:hover,.tamillink:hover,.hindilink:hover{
+    text-decoration:underline;
+}
+.bodycenter{
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 950px;
+    height: 160vh;
+    border-radius: 20px;
+    display:inline-block;
+}
+.movie{
+    background-color: rgb(15, 15, 15);
+    margin-left: 10px;
+    margin-right:5px;
+    margin-top: 10px;
+    border: solid rgb(98, 97, 97);
+    cursor: pointer;
+    display:inline-block;
+}
+.movie:hover{
+    box-shadow: 0px 0px 15px rgb(98, 97, 97 );
+}
+
+
+
+#movieTitle{
+    color: rgb(252, 251, 251);
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+#movieTitle:hover{
+    text-decoration: underline;
+}
+.moviepic1{
+    width: 290px;
+    height: 350px;
+    margin-left: 0px;
+}
